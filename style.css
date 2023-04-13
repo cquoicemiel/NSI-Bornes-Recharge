@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "LocalFont";
+    src: url("./assets/RedHatDisplayVariable.ttf");
+}
+
+
+*{
+    font-family: "LocalFont", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    padding: 3rem 5rem;
+}
+
+.title{
+    flex: 1;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    gap: 1.5rem;
+}
+
+.bolt{
+    height: 60px;
+    width: 60px;
+    object-fit: scale-down;
+}
+
+.background{
+    position: fixed;
+    inset: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
+
+.description{
+    font-size: 1.5rem;
+    color: #777777;
+    font-weight: normal;
+    text-align: center;
+}
+
+main{
+    flex: 8;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 5rem;
+}
+
+
+.map{
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 6px -1px, rgba(0, 0, 0, 0.06) 0 2px 4px -1px;
+    flex: 4;
+}
+
+.logo{
+    object-fit: scale-down;
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
+.bottom{
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3rem;
+    height: 100%;
+    width: 60%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.text{
+    flex: 2;
+    text-align: center;
+}
+
+.filter{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    color: black;
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+}
+
+.buttons button{
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+    border-radius: 7px;
+    background: rgba(255, 255, 255, 0.33);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: black;
+}
+
+.buttons button.active{
+    background: rgba(0, 0, 0, 0.33);
+    border-radius: 6px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
+    border: 1px solid rgba(0, 0, 0, 1);
+    color: white;
+}

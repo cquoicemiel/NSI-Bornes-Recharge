@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a04f1b94d00de4f5e2b926198bed1852 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a04f1b94d00de4f5e2b926198bed1852" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a04f1b94d00de4f5e2b926198bed1852 = L.map(
+                "map_a04f1b94d00de4f5e2b926198bed1852",
+                {
+                    center: [47.47111573852694, -0.551897474884361],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_574022097d06c16c09bedd6b0e123428 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 12, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a04f1b94d00de4f5e2b926198bed1852);
+        
+    
+            var marker_544d810668da7164fbb7718e5db36e4a = L.marker(
+                [47.47989268470305, -0.5644793245201025],
+                {}
+            ).addTo(map_a04f1b94d00de4f5e2b926198bed1852);
+        
+    
+            var icon_8531b23573f9c7ce1cf64f8d60283723 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_544d810668da7164fbb7718e5db36e4a.setIcon(icon_8531b23573f9c7ce1cf64f8d60283723);
+        
+    
+        var popup_0d54dec06e39351712500f6dee3f8f2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8e4b8437769d200256b87cba2145763 = $(`<div id="html_f8e4b8437769d200256b87cba2145763" style="width: 100.0%; height: 100.0%;">SmilÃ©Mobi Charging Station</div>`)[0];
+                popup_0d54dec06e39351712500f6dee3f8f2b.setContent(html_f8e4b8437769d200256b87cba2145763);
+            
+        
+
+        marker_544d810668da7164fbb7718e5db36e4a.bindPopup(popup_0d54dec06e39351712500f6dee3f8f2b)
+        ;
+
+        
+    
+    
+            var marker_22225553fd8374063c633801bd329312 = L.marker(
+                [47.47536782105485, -0.5627627106728589],
+                {}
+            ).addTo(map_a04f1b94d00de4f5e2b926198bed1852);
+        
+    
+            var icon_a2aa637117928aaaa090158e1e9cd026 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_22225553fd8374063c633801bd329312.setIcon(icon_a2aa637117928aaaa090158e1e9cd026);
+        
+    
+        var popup_dec01dab351bddda376f27232752dce7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5dbac9f1bf121b49d2460a45eacb21b = $(`<div id="html_f5dbac9f1bf121b49d2460a45eacb21b" style="width: 100.0%; height: 100.0%;">SmilÃ©Mobi Charging Station</div>`)[0];
+                popup_dec01dab351bddda376f27232752dce7.setContent(html_f5dbac9f1bf121b49d2460a45eacb21b);
+            
+        
+
+        marker_22225553fd8374063c633801bd329312.bindPopup(popup_dec01dab351bddda376f27232752dce7)
+        ;
+
+        
+    
+    
+            var marker_8d53106f97caa90e7f12fa6261325ba1 = L.marker(
+                [47.47571590132617, -0.5542654723177085],
+                {}
+            ).addTo(map_a04f1b94d00de4f5e2b926198bed1852);
+        
+    
+            var icon_85d37d778ed0540574a727b932593948 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8d53106f97caa90e7f12fa6261325ba1.setIcon(icon_85d37d778ed0540574a727b932593948);
+        
+    
+        var popup_6a128116d9a4d7db978b3ebd7ebe37b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25dc3e7a50ac1a74ded9c22d99adf156 = $(`<div id="html_25dc3e7a50ac1a74ded9c22d99adf156" style="width: 100.0%; height: 100.0%;">SmilÃ©Mobi Station de recharge</div>`)[0];
+                popup_6a128116d9a4d7db978b3ebd7ebe37b2.setContent(html_25dc3e7a50ac1a74ded9c22d99adf156);
+            
+        
+
+        marker_8d53106f97caa90e7f12fa6261325ba1.bindPopup(popup_6a128116d9a4d7db978b3ebd7ebe37b2)
+        ;
+
+        
+    
+    
+            var marker_6b59b61bb9d47f2ecd8a3bc8da0939f3 = L.marker(
+                [47.47513576620468, -0.5474848481341674],
+                {}
+            ).addTo(map_a04f1b94d00de4f5e2b926198bed1852);
+        
+    
+            var icon_7d266972d9346c8eb9dca5ed70b615ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6b59b61bb9d47f2ecd8a3bc8da0939f3.setIcon(icon_7d266972d9346c8eb9dca5ed70b615ea);
+        
+    
+        var popup_649406dea9922a64ebaaa048610431ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06d455653ace5cc500eb12d9455874b8 = $(`<div id="html_06d455653ace5cc500eb12d9455874b8" style="width: 100.0%; height: 100.0%;">SmilÃ©Mobi Charging Station</div>`)[0];
+                popup_649406dea9922a64ebaaa048610431ca.setContent(html_06d455653ace5cc500eb12d9455874b8);
+            
+        
+
+        marker_6b59b61bb9d47f2ecd8a3bc8da0939f3.bindPopup(popup_649406dea9922a64ebaaa048610431ca)
+        ;
+
+        
+    
+    
+            var marker_b5d23197fca54843b9032f456f5994d3 = L.marker(
+                [47.47066851151817, -0.5560679173028105],
+                {}
+            ).addTo(map_a04f1b94d00de4f5e2b926198bed1852);
+        
+    
+            var icon_b3c5c88900d5dc1d7bcc805d60962c2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b5d23197fca54843b9032f456f5994d3.setIcon(icon_b3c5c88900d5dc1d7bcc805d60962c2a);
+        
+    
+        var popup_a0aa1549389bfa3196d6e750dda5ff49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8fba3c2375aedb92fe758c01b3f1feba = $(`<div id="html_8fba3c2375aedb92fe758c01b3f1feba" style="width: 100.0%; height: 100.0%;">SmilÃ©Mobi Charging Station</div>`)[0];
+                popup_a0aa1549389bfa3196d6e750dda5ff49.setContent(html_8fba3c2375aedb92fe758c01b3f1feba);
+            
+        
+
+        marker_b5d23197fca54843b9032f456f5994d3.bindPopup(popup_a0aa1549389bfa3196d6e750dda5ff49)
+        ;
+
+        
+    
+    
+            var marker_54451ed648036351e178a163f86ac00c = L.marker(
+                [47.48140088598003, -0.5413908689955422],
+                {}
+            ).addTo(map_a04f1b94d00de4f5e2b926198bed1852);
+        
+    
+            var icon_8fea2d6e5df73165442511c50580f736 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_54451ed648036351e178a163f86ac00c.setIcon(icon_8fea2d6e5df73165442511c50580f736);
+        
+    
+        var popup_20acecdac2a09578378c7ada6137da68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f93d516927f11c1e43139b4b1a3d4bf6 = $(`<div id="html_f93d516927f11c1e43139b4b1a3d4bf6" style="width: 100.0%; height: 100.0%;">SmilÃ©Mobi Charging Station</div>`)[0];
+                popup_20acecdac2a09578378c7ada6137da68.setContent(html_f93d516927f11c1e43139b4b1a3d4bf6);
+            
+        
+
+        marker_54451ed648036351e178a163f86ac00c.bindPopup(popup_20acecdac2a09578378c7ada6137da68)
+        ;
+
+        
+    
+    
+            var marker_a75e7b06adda44f4ffd09bdbab7c26cb = L.marker(
+                [47.46463421415489, -0.5526346896285957],
+                {}
+            ).addTo(map_a04f1b94d00de4f5e2b926198bed1852);
+        
+    
+            var icon_88cc0df18fa9a956f6656cf6675a0505 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a75e7b06adda44f4ffd09bdbab7c26cb.setIcon(icon_88cc0df18fa9a956f6656cf6675a0505);
+        
+    
+        var popup_7c257000804cd7b4aa3de461b5929867 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d6bbc411cfbe185560dc79d742f71c9 = $(`<div id="html_3d6bbc411cfbe185560dc79d742f71c9" style="width: 100.0%; height: 100.0%;">REVEO Charging Station</div>`)[0];
+                popup_7c257000804cd7b4aa3de461b5929867.setContent(html_3d6bbc411cfbe185560dc79d742f71c9);
+            
+        
+
+        marker_a75e7b06adda44f4ffd09bdbab7c26cb.bindPopup(popup_7c257000804cd7b4aa3de461b5929867)
+        ;
+
+        
+    
+    
+            var marker_b0acb7eb0f04292a1c55442fcde6d64d = L.marker(
+                [47.49521939200708, -0.5661913500010508],
+                {}
+            ).addTo(map_a04f1b94d00de4f5e2b926198bed1852);
+        
+    
+            var icon_8830888a1d75261aae6dfcac8ac590e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b0acb7eb0f04292a1c55442fcde6d64d.setIcon(icon_8830888a1d75261aae6dfcac8ac590e6);
+        
+    
+        var popup_d25a5debb5dffec5d72733b9312009db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c15b0355516bf77823a09a3f26ec3102 = $(`<div id="html_c15b0355516bf77823a09a3f26ec3102" style="width: 100.0%; height: 100.0%;">SmilÃ©Mobi Station de recharge</div>`)[0];
+                popup_d25a5debb5dffec5d72733b9312009db.setContent(html_c15b0355516bf77823a09a3f26ec3102);
+            
+        
+
+        marker_b0acb7eb0f04292a1c55442fcde6d64d.bindPopup(popup_d25a5debb5dffec5d72733b9312009db)
+        ;
+
+        
+    
+    
+            var marker_3dccb4f56b6e5587bbae03e1cdc352c9 = L.marker(
+                [47.462777367749815, -0.6134028163976812],
+                {}
+            ).addTo(map_a04f1b94d00de4f5e2b926198bed1852);
+        
+    
+            var icon_c9464710c48bea4be5849e87a292175c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3dccb4f56b6e5587bbae03e1cdc352c9.setIcon(icon_c9464710c48bea4be5849e87a292175c);
+        
+    
+        var popup_1100895e627fe334d3b2dad9f588e5b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4fcc7ff9ebc7b61765572c8694003d8a = $(`<div id="html_4fcc7ff9ebc7b61765572c8694003d8a" style="width: 100.0%; height: 100.0%;">Electrique VÃ©hicule Station de Recharge</div>`)[0];
+                popup_1100895e627fe334d3b2dad9f588e5b8.setContent(html_4fcc7ff9ebc7b61765572c8694003d8a);
+            
+        
+
+        marker_3dccb4f56b6e5587bbae03e1cdc352c9.bindPopup(popup_1100895e627fe334d3b2dad9f588e5b8)
+        ;
+
+        
+    
+    
+            var marker_51093d6288576665a60e3f2c7fefb829 = L.marker(
+                [47.47461363921363, -0.5661959383470736],
+                {}
+            ).addTo(map_a04f1b94d00de4f5e2b926198bed1852);
+        
+    
+            var icon_7161a965a8e082ec5ceb6a0455dd72b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_51093d6288576665a60e3f2c7fefb829.setIcon(icon_7161a965a8e082ec5ceb6a0455dd72b8);
+        
+    
+        var popup_76f186384bbb0c33cd038cd27c1ad39a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3271a170c52f4e9ffc7bdf46e9c8a416 = $(`<div id="html_3271a170c52f4e9ffc7bdf46e9c8a416" style="width: 100.0%; height: 100.0%;">SmilÃ©Mobi Charging Station</div>`)[0];
+                popup_76f186384bbb0c33cd038cd27c1ad39a.setContent(html_3271a170c52f4e9ffc7bdf46e9c8a416);
+            
+        
+
+        marker_51093d6288576665a60e3f2c7fefb829.bindPopup(popup_76f186384bbb0c33cd038cd27c1ad39a)
+        ;
+
+        
+    
+    
+            var marker_760378c947dc6962815c8926a0ca3e58 = L.marker(
+                [47.4767021162532, -0.5589861603697539],
+                {}
+            ).addTo(map_a04f1b94d00de4f5e2b926198bed1852);
+        
+    
+            var icon_7873e128c925c1b7b5f255cc006fd3df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_760378c947dc6962815c8926a0ca3e58.setIcon(icon_7873e128c925c1b7b5f255cc006fd3df);
+        
+    
+        var popup_5639e5ede3a2df77ac4a0a53bcdb8a77 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_adb1d32db5909c6723fcddf0a78cca96 = $(`<div id="html_adb1d32db5909c6723fcddf0a78cca96" style="width: 100.0%; height: 100.0%;">SIE Maine et Loire Station de recharge</div>`)[0];
+                popup_5639e5ede3a2df77ac4a0a53bcdb8a77.setContent(html_adb1d32db5909c6723fcddf0a78cca96);
+            
+        
+
+        marker_760378c947dc6962815c8926a0ca3e58.bindPopup(popup_5639e5ede3a2df77ac4a0a53bcdb8a77)
+        ;
+
+        
+    
+    
+            var marker_0ed59209576f1aee81438a5cac71a8d9 = L.marker(
+                [47.481748926373484, -0.5435366363088205],
+                {}
+            ).addTo(map_a04f1b94d00de4f5e2b926198bed1852);
+        
+    
+            var icon_129f4581ca74f950f4acbd5753d9329f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0ed59209576f1aee81438a5cac71a8d9.setIcon(icon_129f4581ca74f950f4acbd5753d9329f);
+        
+    
+        var popup_e426c1e3e566fa780bea07c305bdae2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0aa4e244c9d69546823077954891adba = $(`<div id="html_0aa4e244c9d69546823077954891adba" style="width: 100.0%; height: 100.0%;">SmilÃ©Mobi Charging Station</div>`)[0];
+                popup_e426c1e3e566fa780bea07c305bdae2b.setContent(html_0aa4e244c9d69546823077954891adba);
+            
+        
+
+        marker_0ed59209576f1aee81438a5cac71a8d9.bindPopup(popup_e426c1e3e566fa780bea07c305bdae2b)
+        ;
+
+        
+    
+    
+            var marker_406a4e41e5569cc9e5f00bf66f9952d6 = L.marker(
+                [47.47850046047986, -0.5490298005875641],
+                {}
+            ).addTo(map_a04f1b94d00de4f5e2b926198bed1852);
+        
+    
+            var icon_8f0c92ee2d9bd364a06fc1d81ee4fd70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_406a4e41e5569cc9e5f00bf66f9952d6.setIcon(icon_8f0c92ee2d9bd364a06fc1d81ee4fd70);
+        
+    
+        var popup_ffd1fca08959602810a5092ad034ade6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f12c4e104df5b66a7918d00fc1c7671 = $(`<div id="html_5f12c4e104df5b66a7918d00fc1c7671" style="width: 100.0%; height: 100.0%;">SmilÃ©Mobi Charging Station</div>`)[0];
+                popup_ffd1fca08959602810a5092ad034ade6.setContent(html_5f12c4e104df5b66a7918d00fc1c7671);
+            
+        
+
+        marker_406a4e41e5569cc9e5f00bf66f9952d6.bindPopup(popup_ffd1fca08959602810a5092ad034ade6)
+        ;
+
+        
+    
+    
+            var marker_8608384efb17348480e9054024b1e5c6 = L.marker(
+                [47.47548384801778, -0.5516905520350806],
+                {}
+            ).addTo(map_a04f1b94d00de4f5e2b926198bed1852);
+        
+    
+            var icon_71c8625bb4c33b2e1488c2fef5df92e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8608384efb17348480e9054024b1e5c6.setIcon(icon_71c8625bb4c33b2e1488c2fef5df92e8);
+        
+    
+        var popup_e9477896cf5331aa1d8836c1f57acfa5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccbb2785057b92e8c5428d0e4ad7715e = $(`<div id="html_ccbb2785057b92e8c5428d0e4ad7715e" style="width: 100.0%; height: 100.0%;">SmilÃ©Mobi Station de recharge</div>`)[0];
+                popup_e9477896cf5331aa1d8836c1f57acfa5.setContent(html_ccbb2785057b92e8c5428d0e4ad7715e);
+            
+        
+
+        marker_8608384efb17348480e9054024b1e5c6.bindPopup(popup_e9477896cf5331aa1d8836c1f57acfa5)
+        ;
+
+        
+    
+    
+            var marker_4ed3d926ffe633eda3323c167e9909a6 = L.marker(
+                [47.47165482117352, -0.5516905520181866],
+                {}
+            ).addTo(map_a04f1b94d00de4f5e2b926198bed1852);
+        
+    
+            var icon_14ad079f9184f9069e10d03d44f2a416 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4ed3d926ffe633eda3323c167e9909a6.setIcon(icon_14ad079f9184f9069e10d03d44f2a416);
+        
+    
+        var popup_824f9f5675513f88ef4cd41013f0fa57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a463e2017c48e8811468f8ec18384c43 = $(`<div id="html_a463e2017c48e8811468f8ec18384c43" style="width: 100.0%; height: 100.0%;">Station de Recharge VÃ©hicules Ã‰lectriques</div>`)[0];
+                popup_824f9f5675513f88ef4cd41013f0fa57.setContent(html_a463e2017c48e8811468f8ec18384c43);
+            
+        
+
+        marker_4ed3d926ffe633eda3323c167e9909a6.bindPopup(popup_824f9f5675513f88ef4cd41013f0fa57)
+        ;
+
+        
+    
+    
+            var marker_1022be06e6fca1486831d32410169937 = L.marker(
+                [47.469566143527885, -0.5592436529014592],
+                {}
+            ).addTo(map_a04f1b94d00de4f5e2b926198bed1852);
+        
+    
+            var icon_3bd3bca97253282451949eca37610d28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1022be06e6fca1486831d32410169937.setIcon(icon_3bd3bca97253282451949eca37610d28);
+        
+    
+        var popup_b353241da63b65d20374073af90585d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b01078e6b95c416510444d50b7b194ed = $(`<div id="html_b01078e6b95c416510444d50b7b194ed" style="width: 100.0%; height: 100.0%;">SmilÃ©Mobi Charging Station</div>`)[0];
+                popup_b353241da63b65d20374073af90585d4.setContent(html_b01078e6b95c416510444d50b7b194ed);
+            
+        
+
+        marker_1022be06e6fca1486831d32410169937.bindPopup(popup_b353241da63b65d20374073af90585d4)
+        ;
+
+        
+    
+    
+            var marker_5a0569d916db94755c37d43ac15afc8d = L.marker(
+                [47.46562063705053, -0.5593294835933145],
+                {}
+            ).addTo(map_a04f1b94d00de4f5e2b926198bed1852);
+        
+    
+            var icon_76df992943e03c3b386f6cec26733c41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5a0569d916db94755c37d43ac15afc8d.setIcon(icon_76df992943e03c3b386f6cec26733c41);
+        
+    
+        var popup_4f8d463fd10b0b7601242b017fde77e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be48bda92deb796ddc35519b4c47d19e = $(`<div id="html_be48bda92deb796ddc35519b4c47d19e" style="width: 100.0%; height: 100.0%;">Station de recharge pour vÃ©hicules Ã©lectriques</div>`)[0];
+                popup_4f8d463fd10b0b7601242b017fde77e0.setContent(html_be48bda92deb796ddc35519b4c47d19e);
+            
+        
+
+        marker_5a0569d916db94755c37d43ac15afc8d.bindPopup(popup_4f8d463fd10b0b7601242b017fde77e0)
+        ;
+
+        
+    
+    
+            var marker_d9f1c62e3432881d70fb08eb7ffa557d = L.marker(
+                [47.47496172435005, -0.5479998322684058],
+                {}
+            ).addTo(map_a04f1b94d00de4f5e2b926198bed1852);
+        
+    
+            var icon_a1bad1ba446a810cff1275a1ff228f08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d9f1c62e3432881d70fb08eb7ffa557d.setIcon(icon_a1bad1ba446a810cff1275a1ff228f08);
+        
+    
+        var popup_9a2a94f7e3229c321404dc65dd9c187b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0abf5b57eae3112ddc2ea56f0afb70d = $(`<div id="html_b0abf5b57eae3112ddc2ea56f0afb70d" style="width: 100.0%; height: 100.0%;">SmilÃ©Mobi Charging Station</div>`)[0];
+                popup_9a2a94f7e3229c321404dc65dd9c187b.setContent(html_b0abf5b57eae3112ddc2ea56f0afb70d);
+            
+        
+
+        marker_d9f1c62e3432881d70fb08eb7ffa557d.bindPopup(popup_9a2a94f7e3229c321404dc65dd9c187b)
+        ;
+
+        
+    
+    
+            var marker_bb605886573b054e4a49806367e95faa = L.marker(
+                [47.466374947951465, -0.5535788272390048],
+                {}
+            ).addTo(map_a04f1b94d00de4f5e2b926198bed1852);
+        
+    
+            var icon_ce3d9bc9a0282311c00454367a194e30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bb605886573b054e4a49806367e95faa.setIcon(icon_ce3d9bc9a0282311c00454367a194e30);
+        
+    
+        var popup_74c358eac1cf1360ab9d56bd3ae3a92c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f900f66a2c082da2960a716f20df36dd = $(`<div id="html_f900f66a2c082da2960a716f20df36dd" style="width: 100.0%; height: 100.0%;">SmilÃ©Mobi Charging Station</div>`)[0];
+                popup_74c358eac1cf1360ab9d56bd3ae3a92c.setContent(html_f900f66a2c082da2960a716f20df36dd);
+            
+        
+
+        marker_bb605886573b054e4a49806367e95faa.bindPopup(popup_74c358eac1cf1360ab9d56bd3ae3a92c)
+        ;
+
+        
+    
+    
+            var marker_2d3634629251a318ba040053bcebbf54 = L.marker(
+                [47.46979822292102, -0.5396742551584348],
+                {}
+            ).addTo(map_a04f1b94d00de4f5e2b926198bed1852);
+        
+    
+            var icon_0d5a5524dafa98179909c7eff11b3316 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2d3634629251a318ba040053bcebbf54.setIcon(icon_0d5a5524dafa98179909c7eff11b3316);
+        
+    
+        var popup_de7731cdcbc97bf38139251b1dfe3a9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44eb64338b55336077cbb193ffaffc91 = $(`<div id="html_44eb64338b55336077cbb193ffaffc91" style="width: 100.0%; height: 100.0%;">SmilÃ©Mobi Charging Station</div>`)[0];
+                popup_de7731cdcbc97bf38139251b1dfe3a9e.setContent(html_44eb64338b55336077cbb193ffaffc91);
+            
+        
+
+        marker_2d3634629251a318ba040053bcebbf54.bindPopup(popup_de7731cdcbc97bf38139251b1dfe3a9e)
+        ;
+
+        
+    
+    
+            var marker_03d673740416df6da932179572174b98 = L.marker(
+                [47.461714951875344, -0.5366148497554527],
+                {}
+            ).addTo(map_a04f1b94d00de4f5e2b926198bed1852);
+        
+    
+            var icon_9eb973914a399ee3ce7eb83202441b2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_03d673740416df6da932179572174b98.setIcon(icon_9eb973914a399ee3ce7eb83202441b2a);
+        
+    
+        var popup_533cc99a55584e8cdbb5f3fe27d905bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e93918e904b7d95e134a286eab0e0332 = $(`<div id="html_e93918e904b7d95e134a286eab0e0332" style="width: 100.0%; height: 100.0%;">SmilÃ©Mobi Charging Station</div>`)[0];
+                popup_533cc99a55584e8cdbb5f3fe27d905bc.setContent(html_e93918e904b7d95e134a286eab0e0332);
+            
+        
+
+        marker_03d673740416df6da932179572174b98.bindPopup(popup_533cc99a55584e8cdbb5f3fe27d905bc)
+        ;
+
+        
+    
+</script>
+</html>

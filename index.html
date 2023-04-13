@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projet NSI</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="script" href="script.js"/>
+</head>
+<body>
+    <h1 class="title">Rechargez votre véhicule électrique à Angers <img src="assets/bolt.png" class="bolt" alt="Icone d'éclair"/></h1>
+    <h3 class="description">Trouvez à Angers différentes bornes de recharge pour véhicules électriques, gratuites ou payantes.</h3>
+    <main>
+        <iframe class="map" id="map" width="1000" height="500" src="carte.html"></iframe>
+        <div class="bottom">
+            <p class="text">Il y a <span id="amount"></span> bornes de recharge <span id="type"></span> dans la ville</p>
+            <div class="filter">
+                <p>Filtrer</p>
+                <div class="buttons">
+                    <button id="free">Gratuites</button>
+                    <button id="charged">Payantes</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <a class="logo" href="https://www.angers.fr/" target="_blank"><img class="logo" src="assets/angers.webp" alt="Logo de la ville d'Angers"/></a>
+
+    <img alt="Fond coloré" class="background" src="assets/gradient-bg.webp"/>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
