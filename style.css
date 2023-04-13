@@ -41,6 +41,7 @@ body{
     height: 100vh;
     width: 100vw;
     z-index: -1;
+    opacity: .6;
 }
 
 .description{
@@ -88,7 +89,7 @@ main{
     width: 60%;
     font-size: 1.5rem;
     font-weight: bold;
-    color: #ffffff;
+    color: black;
 }
 
 .text{
@@ -103,7 +104,6 @@ main{
     justify-content: center;
     align-items: center;
     gap: .5rem;
-    color: black;
 }
 
 .buttons{
@@ -126,11 +126,11 @@ main{
 }
 
 .buttons button.active{
-    background: rgba(0, 0, 0, 0.33);
+    background: rgba(0, 0, 0, 0.68);
     border-radius: 6px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(9.5px);
-    -webkit-backdrop-filter: blur(9.5px);
-    border: 1px solid rgba(0, 0, 0, 1);
+    backdrop-filter: blur(7.8px);
+    -webkit-backdrop-filter: blur(7.8px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
     color: white;
 }
